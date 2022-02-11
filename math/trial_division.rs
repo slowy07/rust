@@ -40,5 +40,7 @@ mod tests {
     #[test]
     fn basic() {
         assert_eq!(trial_division(9), vec!(3, 3));
+        assert_eq!(trial_division(33), vec!(3, 11));
+        assert_eq!(trial_division(2003), vec!(2003));
     }
 }
